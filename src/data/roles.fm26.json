@@ -1,0 +1,98 @@
+{
+	"roles": [
+		{
+			"Goalkeeper": [
+				"Ball-Playing GK",
+				"Goalkeeper",
+				"Line-Holding Keeper",
+				"No-Nonsense GK",
+				"Sweeper Keeper"
+			],
+
+			"Centre-Back": [
+				"Advanced CB",
+				"Ball-Playing CB",
+				"Centre-Back",
+				"Covering CB",
+				"Covering Wide CB",
+				"No-Nonsense CB",
+				"Overlapping CB",
+				"Stopping CB",
+				"Stopping Wide CB",
+				"Wide CB"
+			],
+
+			"Full-Back": [
+				"Wing-Back",
+				"Full-Back",
+				"Inside Wing-Back",
+				"Inside Full-Back",
+				"Playmaking Wing-Back"
+			],
+
+			"Wing-Back": [
+				"Wing-Back",
+				"Full-Back",
+				"Inside Wing-Back",
+				"Inside Full-Back",
+				"Playmaking Wing-Back"
+			],
+
+			"Defensive Midfield": [
+				"Defensive Midfielder",
+				"Deep-Lying Playmaker",
+				"Box-to-Box Midfielder",
+				"Half Back",
+				"Box-to-Box Playmaker"
+			],
+
+			"Central Midfield": [
+				"Box-to-Box Midfielder",
+				"Box-to-Box Playmaker",
+				"Central Midfielder",
+				"Channel Midfielder",
+				"Midfield Playmaker",
+				"Pressing CM",
+				"Screening CM",
+				"Wide Covering CM"
+			],
+
+			"Wide Midfield": [
+				"Tracking Wide Midfielder",
+				"Wide Central Midfielder",
+				"Wide Midfielder",
+				"Wide Outlet Midfielder"
+			],
+
+			"Attacking Midfield": [
+				"Attacking Midfielder",
+				"Advanced Playmaker",
+				"Free Role",
+				"Second Striker",
+				"Channel Midfielder"
+			],
+
+			"Winger": [
+				"Winger",
+				"Inside Forward",
+				"Playmaking Winger",
+				"Wide Forward",
+				"Inside Winger"
+			],
+
+			"Striker": [
+				"Centre Forward",
+				"Central Outlet CF",
+				"Channel Forward",
+				"Deep-Lying Forward",
+				"False Nine",
+				"Half-Space Forward",
+				"Poacher",
+				"Second Striker",
+				"Splitting Outlet CF",
+				"Target Forward",
+				"Tracking CF"
+			]
+		}
+	]
+}
