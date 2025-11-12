@@ -5,7 +5,6 @@ A clean, modern web application for planning your Football Manager squad depth a
 ## Features
 
 - **Formation Selector**: Choose from 7 popular formations (4-2-3-1, 4-3-3, 4-4-2, 3-4-3, 3-5-2, 5-2-3, 4-1-4-1)
-- **Visual Pitch View**: Interactive pitch visualization with clickable position chips
 - **Depth Chart**: Manage 3 slots per position (1st choice, 2nd choice, Youth prospect)
 - **Player Management**: Add, edit, and remove players with detailed attributes
 - **Star Ratings**: Visual representation of Current Ability (CA) and Potential Ability (PA) with half-star support
@@ -62,7 +61,6 @@ src/
   store/              # Zustand store with persistence
   components/
     layout/           # AppLayout, Sidebar
-    pitch/            # Pitch visualization
     depth/            # Depth chart components
     player/           # Player editor modal
     ui/               # Reusable UI components
@@ -77,7 +75,7 @@ src/
 ## Usage
 
 1. **Select Formation**: Choose a formation from the sidebar dropdown
-2. **Add Players**: Click on a position chip on the pitch or use the depth chart to add players
+2. **Add Players**: Use the depth chart to add players to positions
 3. **Edit Players**: Click on any player slot to edit their details
 4. **Manage Depth**: Use the depth chart accordion to manage all three slots per position
 5. **Export/Import**: Use the sidebar buttons to export your squad plan as JSON or import a previously saved plan
