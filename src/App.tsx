@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { useSquadStore } from './store/squadStore';
 import { AppLayout } from './components/layout/AppLayout';
+import { SquadOverview } from './components/depth/SquadOverview';
 import { DepthChart } from './components/depth/DepthChart';
 import { PlayerEditorModal } from './components/player/PlayerEditorModal';
 import type { Player } from './types';
@@ -41,6 +42,7 @@ function App() {
 
   return (
     <AppLayout>
+      <SquadOverview />
       <DepthChart onPositionClick={handlePositionClick} />
 
       <PlayerEditorModal
