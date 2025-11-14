@@ -92,7 +92,7 @@ export function Sidebar() {
 
       <Card className="p-4 space-y-2">
         <h3 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-3">Actions</h3>
-        
+
         <button
           onClick={() => setShowResetConfirm(true)}
           className="w-full flex items-center gap-2 px-4 py-2 bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-900 dark:text-white rounded-lg transition-colors text-sm font-medium"
@@ -119,11 +119,6 @@ export function Sidebar() {
             className="hidden"
           />
         </label>
-      </Card>
-
-      <Card className="p-4">
-        <h3 className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-2">Settings</h3>
-        <p className="text-xs text-gray-500 dark:text-gray-400">Coming soon</p>
       </Card>
 
       <ConfirmDialog

@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import type { SquadPlan, Player } from '../types';
+import type { SquadPlan, Player, DepthSlot } from '../types';
 import { FORMATIONS, getPositionsForFormation } from '../data/formations';
 import { savePlan, loadPlan, clearPlan } from '../utils/localStorage';
 
@@ -30,7 +30,7 @@ interface SquadStore {
 function createInitialPlan(): SquadPlan {
   const formation = FORMATIONS[0];
   const positions = getPositionsForFormation(formation);
-  const depthChart: Record<string, any> = {};
+  const depthChart: Record<string, DepthSlot> = {};
   positions.forEach(pos => {
     depthChart[pos] = {};
   });
@@ -67,7 +67,7 @@ export const useSquadStore = create<SquadStore>((set, get) => {
     setFormation: (formation: string) => {
       set((state) => {
         const positions = getPositionsForFormation(formation);
-        const depthChart: Record<string, any> = {};
+        const depthChart: Record<string, DepthSlot> = {};
         
         // Preserve existing players for positions that exist in new formation
         positions.forEach(pos => {
