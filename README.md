@@ -7,7 +7,7 @@ A clean, modern web application for planning your Football Manager squad depth a
 - **Formation Selector**: Choose from 7 popular formations (4-2-3-1, 4-3-3, 4-4-2, 3-4-3, 3-5-2, 5-2-3, 4-1-4-1)
 - **Depth Chart**: Manage 3 slots per position (1st choice, 2nd choice, Youth prospect)
 - **Player Management**: Add, edit, and remove players with detailed attributes
-- **Star Ratings**: Visual representation of Current Ability (CA) and Potential Ability (PA) with half-star support
+- **Star Ratings**: Visual representation of Current Ability (CA) and Potential Ability (PA)
 - **Roles System**: FM26 player roles integrated per position
 - **Persistence**: Auto-save to localStorage with import/export functionality
 - **Responsive Design**: Mobile-friendly interface (375px+)
@@ -38,8 +38,6 @@ Start the development server:
 ```bash
 npm run dev
 ```
-
-The app will be available at `http://localhost:5173`
 
 ## Build
 
@@ -90,16 +88,6 @@ src/
 ## Storage
 
 All data is automatically saved to `localStorage` with the key `fm-squad-planner-v1`. You can export your data as JSON for backup or sharing.
-
-## Future Enhancements
-
-- Backend integration
-- Player filtering and sorting
-- Role recommendations
-- CSV import
-- Scouting integrations
-- Player valuations
-- Contract details
 
 ## License
 
