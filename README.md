@@ -64,7 +64,7 @@ src/
     ui/               # Reusable UI components
   data/
     formations.ts     # Formation definitions
-    roles.fm26.json   # FM26 player roles (to be populated)
+    roles.fm26.json   # FM26 player roles
   utils/
     localStorage.ts   # Persistence helpers
     roles.ts          # Role loading utilities
