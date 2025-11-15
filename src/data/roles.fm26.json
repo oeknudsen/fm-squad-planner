@@ -2,40 +2,43 @@
 	"roles": [
 		{
 			"Goalkeeper": [
-				"Ball-Playing GK",
+				"Ball-Playing Goalkeeper",
 				"Goalkeeper",
 				"Line-Holding Keeper",
-				"No-Nonsense GK",
+				"No-Nonsense Goalkeeper",
 				"Sweeper Keeper"
 			],
 
 			"Centre-Back": [
-				"Advanced CB",
-				"Ball-Playing CB",
+				"Advanced Centre-Back",
+				"Ball-Playing Centre-Back",
 				"Centre-Back",
-				"Covering CB",
-				"Covering Wide CB",
-				"No-Nonsense CB",
-				"Overlapping CB",
-				"Stopping CB",
-				"Stopping Wide CB",
-				"Wide CB"
+				"Covering Centre-Back",
+				"Covering Wide Centre-Back",
+				"No-Nonsense Centre-Back",
+				"Overlapping Centre-Back",
+				"Stopping Centre-Back",
+				"Stopping Wide Centre-Back",
+				"Wide Centre-Back"
 			],
 
 			"Full-Back": [
-				"Wing-Back",
 				"Full-Back",
-				"Inside Wing-Back",
+				"Holding Full-Back",
 				"Inside Full-Back",
-				"Playmaking Wing-Back"
+				"Inside Wing-Back",
+				"Playmaking Wing-Back",
+				"Pressing Full-Back",
+				"Wing-Back"
 			],
 
 			"Wing-Back": [
-				"Wing-Back",
-				"Full-Back",
+				"Advanced Wing-Back",
+				"Holding Wing-Back",
 				"Inside Wing-Back",
-				"Inside Full-Back",
-				"Playmaking Wing-Back"
+				"Playmaking Wing-Back",
+				"Pressing Wing-Back",
+				"Wing-Back"
 			],
 
 			"Defensive Midfield": [
@@ -43,25 +46,32 @@
 				"Deep-Lying Playmaker",
 				"Box-to-Box Midfielder",
 				"Half Back",
-				"Box-to-Box Playmaker"
+				"Box-to-Box Playmaker",
+				"Dropping Defensive Midfielder",
+				"Pressing Defensive Midfielder",
+				"Screening Defensive Midfielder",
+				"Wide Covering Defensive Midfielder"
 			],
 
 			"Central Midfield": [
-				"Box-to-Box Midfielder",
-				"Box-to-Box Playmaker",
-				"Central Midfielder",
+				"Advanced Playmaker",
+				"Attacking Midfielder",
 				"Channel Midfielder",
 				"Midfield Playmaker",
-				"Pressing CM",
-				"Screening CM",
-				"Wide Covering CM"
+				"Pressing Central Midfielder",
+				"Screening Central Midfielder",
+				"Wide Central Midfielder",
+				"Wide Covering Central Midfielder"
 			],
 
 			"Wide Midfield": [
+				"Inside Winger",
+				"Playmaking Winger",
 				"Tracking Wide Midfielder",
 				"Wide Central Midfielder",
 				"Wide Midfielder",
-				"Wide Outlet Midfielder"
+				"Wide Outlet Wide Midfielder",
+				"Winger"
 			],
 
 			"Attacking Midfield": [
@@ -69,29 +79,34 @@
 				"Advanced Playmaker",
 				"Free Role",
 				"Second Striker",
-				"Channel Midfielder"
+				"Channel Midfielder",
+				"Tracking Attacking Midfielder",
+				"Central Outlet Attacking Midfielder"
 			],
 
 			"Winger": [
-				"Winger",
 				"Inside Forward",
+				"Inside Out Winger",
+				"Inside Winger",
 				"Playmaking Winger",
+				"Tracking Winger",
 				"Wide Forward",
-				"Inside Winger"
+				"Wide Out Winger",
+				"Winger"
 			],
 
 			"Striker": [
 				"Centre Forward",
-				"Central Outlet CF",
+				"Central Outlet Centre Forward",
 				"Channel Forward",
 				"Deep-Lying Forward",
 				"False Nine",
 				"Half-Space Forward",
 				"Poacher",
 				"Second Striker",
-				"Splitting Outlet CF",
+				"Splitting Outlet Centre Forward",
 				"Target Forward",
-				"Tracking CF"
+				"Tracking Centre Forward"
 			]
 		}
 	]

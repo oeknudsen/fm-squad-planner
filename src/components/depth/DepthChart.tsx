@@ -144,11 +144,15 @@ export function DepthChart({ onPositionClick }: DepthChartProps) {
                 <div className="flex items-center gap-2">
                   <span className="font-medium text-gray-900 dark:text-white">{position}</span>
                   {hasIssue && (
-                    <AlertCircle 
-                      size={16} 
-                      className="text-amber-600 dark:text-amber-400" 
-                      title={`Only ${playerCount} player${playerCount !== 1 ? 's' : ''} - needs at least 2`}
-                    />
+                    <Tooltip
+                      content={`Only ${playerCount} player${playerCount !== 1 ? 's' : ''} - needs at least 2`}
+                      position="top"
+                    >
+                      <AlertCircle 
+                        size={16} 
+                        className="text-amber-600 dark:text-amber-400 cursor-help" 
+                      />
+                    </Tooltip>
                   )}
                   <span className="text-xs text-gray-500 dark:text-gray-400">
                     ({playerCount} player{playerCount !== 1 ? 's' : ''})

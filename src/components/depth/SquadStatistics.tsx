@@ -3,6 +3,7 @@ import { useState, useMemo } from 'react';
 import { useSquadStore } from '../../store/squadStore';
 import { getPositionsForFormation } from '../../data/formations';
 import { Card } from '../ui/Card';
+import type { Player } from '../../types';
 
 export function SquadStatistics() {
   const formation = useSquadStore((state) => state.plan.formation);
@@ -32,7 +33,7 @@ export function SquadStatistics() {
 
     positions.forEach((position) => {
       const slot = depthChart[position] || {};
-      const players = [slot.first, slot.second, slot.youth].filter(Boolean);
+      const players = [slot.first, slot.second, slot.youth].filter((p): p is Player => p !== undefined);
       const playerCount = players.length;
       
       if (playerCount < 2) {
